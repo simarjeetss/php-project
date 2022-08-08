@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <img class="bg" src="https://source.unsplash.com/random" alt="">
+    <div class="container">
+        <h3>Welcome</h3>
+        <p>Enter your details</p>
+        <form action="index.php" method="post">
+            <input type="text" name="name" id="name" placeholder="Enter your name">
+            <input type="text" name="age" id="age" placeholder="Enter your age">
+            <input type="text" name="gender" id="gender" placeholder="Enter your gender">
+            <input type="number" name="number" id="number" placeholder="Enter your number">
+            <input type="text" name="email" id="email" placeholder="Enter your email">
+            <textarea name="desc" id="desc" cols="30" rows="10" placeholder="Enter any other  information here"></textarea>
+            <button class="btn">Submit</button>
+            <button class="btn">Reset</button>
+        </form>
+    </div>
+    <script src="index.js"></script>
+</body>
+</html>
+
+<!-- INSERT INTO `info` (`sno`, `name`, `age`, `gender`, `number`, `email`, `otherinfo`, `date`) VALUES ('1', 'testname', '21', 'male', '123456789', 'name@example.com', 'NULL', '2022-08-08 08:42:05.000000'); -->
